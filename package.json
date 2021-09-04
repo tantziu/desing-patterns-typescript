@@ -1,0 +1,44 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "description": "Design Patterns",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "npx jest",
+    "build": "webpack",
+    "start": "webpack serve --open --config webpack.config.js"
+  },
+  "author": "Tantziu",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/preset-env": "^7.15.4",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "eslint-webpack-plugin": "^3.0.1",
+    "html-webpack-plugin": "^5.3.2",
+    "jest": "^27.1.0",
+    "node-sass": "^6.0.1",
+    "postcss-loader": "^6.1.1",
+    "postcss-preset-env": "^6.7.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "ts-jest": "^27.0.5",
+    "ts-loader": "^9.2.5",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.0"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.4.2"
+  }
+}

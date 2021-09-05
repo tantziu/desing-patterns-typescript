@@ -25,7 +25,7 @@ module.exports = {
     output: {
         path: path.join(__dirname, 'build'),
         filename: 'index.bundle.js',
-        sourceMapFilename: "index.js.map"
+        // sourceMapFilename: "index.js.map"
     },
 
     resolve: {
@@ -61,9 +61,9 @@ module.exports = {
         }),
         new CleanWebpackPlugin(),
         new webpack.HotModuleReplacementPlugin(),
-        new ESLintPlugin({
-            extensions: ['.tsx', '.ts', '.js'],
-            exclude: 'node_modules'
-         })
+        // new ESLintPlugin({
+        //     extensions: ['.tsx', '.ts', '.js'],
+        //     exclude: 'node_modules'
+        //  })
     ],
 }

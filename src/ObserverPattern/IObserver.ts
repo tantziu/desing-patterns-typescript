@@ -1,6 +1,3 @@
 export interface IObserver {
-    // registerObserver:() -> void
-    // removeObserver()
-    // 
-    // notifyObservers()
+    update(temp:number, humidity: number, pressure: number): void
 }
